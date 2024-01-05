@@ -109,45 +109,15 @@
     logout.addEventListener('click', (e) => {
         const auth = getAuth();
         signOut(auth).then(() => {
-            // Sign-out successful.
             localStorage.setItem('isLoggedIn', false);
-            //alert("User Logged out Successfully");
             alert("Login status set to false");
             console.log("user logged out");
             alert("user logged out");
-            /*document.getElementById("signup").style.display = "block";
-            document.getElementById("login").style.display = "block";
-            document.getElementById("logout").style.display = "none";*/
-            //document.title = "Login Page";
         }).catch((error) => {
-            // An error happened.
+
             console.log(error);
             alert(error);
         });
 
     })
-    
-
-
-    /*
-    function updateNavigationText(isLoggedIn) {
-        var signupNavItem = document.getElementById('signup');
-        var loginNavItem = document.getElementById('login');
-        var logoutNavItem = document.getElementById('logout');
-    
-        if (isLoggedIn) {
-            // User is logged in, change text to "Sign Out" and "Log Out"
-            signupNavItem.firstChild.data = "Sign Out";
-            loginNavItem.firstChild.data = "Log Out";
-        } else {
-            // User is not logged in, revert text to "Sign Up" and "Log In"
-            signupNavItem.firstChild.data = "Sign Up";
-            loginNavItem.firstChild.data = "Log In";
-        }
-    }
-    */
-</script>
-
-
-
 </html>
