@@ -24,8 +24,9 @@ This project showcases how to integrate Google Firebase Authentication into a we
 ## To run this project locally, follow these steps:
     
         Clone this repository to your local machine:
+                    git clone https://github.com/GauravKesh/UserSignUp_SignIn.git
 
-        ```git clone https://github.com/GauravKesh/UserSignUp_SignIn.git```
+        
         Navigate to the project directory:
 
         bash
