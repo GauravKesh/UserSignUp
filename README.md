@@ -1,5 +1,7 @@
 # Firebase Authentication Project
-     https://gauravkesh.github.io/UserSignUp_SignIn/
+## demo
+    <a href="https://gauravkesh.github.io/UserSignUp_SignIn/">Have look </a> 
+## intro
 This project demonstrates a simple sign in, sign up, and sign out functionality using Google Firebase for authentication.
 
 Table of Contents
