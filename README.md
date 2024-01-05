@@ -23,20 +23,21 @@ This project showcases how to integrate Google Firebase Authentication into a we
 # Setup
 ## To run this project locally, follow these steps:
     
-    Clone this repository to your local machine:
+Clone this repository to your local machine:
+         git clone https://github.com/GauravKesh/UserSignUp_SignIn.git
 
-            git clone https://github.com/GauravKesh/UserSignUp_SignIn.git
+           
 
         
-     Navigate to the project directory:
+Navigate to the project directory:
 
-    bash
-    Copy code
-    cd firebase-authentication-project
-    Create a Firebase project and set up Firebase Authentication in the Firebase Console.
-    Obtain the Firebase configuration object for your project.
-    Replace the Firebase configuration in the firebase.js file with your own configuration.
-    Open the index.html file in a web browser or use a development server to run the project.
+bash
+Copy code
+cd firebase-authentication-project
+Create a Firebase project and set up Firebase Authentication in the Firebase Console.
+Obtain the Firebase configuration object for your project.
+Replace the Firebase configuration in the firebase.js file with your own configuration.
+Open the index.html file in a web browser or use a development server to run the project.
 
 # Usage
     Once the project is set up and running, you can:
