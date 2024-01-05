@@ -1,0 +1,154 @@
+.form1 {
+    width: 300px;
+    margin: 0 auto;
+}
+
+ input[type="text"],  input[type="email"], .form1 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.form1 input[type="submit"] {
+    background-color: #474f47;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.form1 input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(27, 91, 27, 0.04), 137, 60, 0.169);
+}
+.line{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1px;
+    height:300px;
+    background-color: #ccc;
+
+
+}
+
+.msignup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(113, 93, 93, 0.3);
+}
+
+.msignup button{
+    width:150px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #676c67;
+    color: white;
+    border: none;
+    cursor: pointer;}
+
+.msignup button:hover{
+    background-color: #45a049;
+}
+
+.msignup .github {
+    background-color: #333;
+    color: white;
+}
+
+.msignup .facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.msignup .twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.msignup .google {
+    background-color: #db4437;
+    color: white;
+}
+
+
+/* 
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.signup {
+    width: 45%;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup form label {
+    margin-bottom: 5px;
+}
+
+.signup form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup form input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.msignup {
+    width: 45%;
+}
+
+.msignup button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.msignup .github {
+    background-color: #333;
+    color: white;
+}
+
+.msignup .facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.msignup .twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.msignup .google {
+    background-color: #db4437;
+    color: white;
+} */
